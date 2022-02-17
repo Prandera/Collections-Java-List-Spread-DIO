@@ -44,7 +44,7 @@ public class InvestigacaoCrime {
 
         System.out.println("\n");
         System.out.println("Total de respostas SIM: " + i);
-        if (i == 0){
+        if (i <= 1){
             System.out.println("Classificação: INOCENTE.");
         }else if (i == 2){
             System.out.println("Classificação: SUSPEITO.");
